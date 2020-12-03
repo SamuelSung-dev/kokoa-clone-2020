@@ -10,6 +10,17 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.3);
 }
+.user-component__column:last-child time {
+  font-size: 0.8rem;
+}
+.user-component__column--chats {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
 .user-component__avatar {
   width: 4rem;
   height: 4rem;
