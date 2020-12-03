@@ -1,0 +1,24 @@
+.user-component {
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 40%;
+  margin: 0 1rem;
+}
+.user-component__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.user-component__subtitle {
+  margin-top: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+}
