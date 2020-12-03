@@ -6,6 +6,8 @@
 
 HTML & CSS are so much fun!
 
+[https://samuelsung-dev.github.io/kokoa-clone-2020/](https://samuelsung-dev.github.io/kokoa-clone-2020/)
+
 Icons from [https://heroicons.com/](https://heroicons.com/) (MIT Licensed Version)
 
 Images from [https://pixabay.com/](https://pixabay.com/) (Pixabay License)
