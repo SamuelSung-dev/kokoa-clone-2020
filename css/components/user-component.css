@@ -1,24 +1,41 @@
 .user-component {
   display: flex;
-  padding: 1rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
+  justify-content: space-between;
 }
 .user-component__column {
   display: flex;
   align-items: center;
 }
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
 .user-component__avatar {
   width: 4rem;
   height: 4rem;
   border-radius: 40%;
-  margin: 0 1rem;
+  margin-right: 1rem;
 }
 .user-component__title {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: bold;
 }
 .user-component__subtitle {
   margin-top: 0.5rem;
   color: rgba(0, 0, 0, 0.7);
   font-size: 1rem;
+}
+
+.user-component__avatar--xl {
+  width: 5rem;
+  height: 5rem;
+}
+
+.user-component__avatar--sm {
+  width: 3rem;
+  height: 3rem;
+}
+.user-component__title--sm {
+  font-size: 1.2rem;
+  font-weight: normal;
 }
