@@ -38,6 +38,9 @@
   font-weight: bold;
   font-size: 1.2rem;
 }
+.find-openchat__hashtag {
+  text-transform: uppercase;
+}
 .find-openchat__text {
   color: rgba(0, 0, 0, 0.4);
   margin: 0.5rem 0;

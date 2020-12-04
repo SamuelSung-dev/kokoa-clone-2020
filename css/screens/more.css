@@ -18,3 +18,12 @@
   width: 3rem;
   height: 3rem;
 }
+
+.more-suggestions {
+  margin-top: 1rem;
+  border-top: var(--border-main);
+}
+
+.more-margin {
+  margin-top: 1rem;
+}

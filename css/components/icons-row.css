@@ -2,28 +2,34 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 1rem 0;
+  flex-wrap: wrap;
 }
-.icons-row__column {
+.icons-row__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 25%;
+  padding: 1rem 0;
 }
 .icons-row__icon--div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  z-index: -1;
+  margin-bottom: 0.5rem;
 }
 .icons-row__icon {
   width: 3rem;
   height: 3rem;
-  margin-bottom: 1rem;
 }
 .icons-row__text {
   text-align: center;
 }
 
-.icons-row__newfeat {
-  position: absolute;
-  top: 0;
-  right: 0;
+.icons-row__background {
+  background-color: var(--main);
+  border-radius: 1rem;
+  width: 4rem;
+  height: 4rem;
 }

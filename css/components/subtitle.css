@@ -18,6 +18,12 @@
 .subtitle__name--xl {
   font-size: 1rem;
 }
+.subtitle__name--black {
+  color: black;
+}
+.subtitle__name--bold {
+  font-weight: bold;
+}
 .subtitle__text {
   font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.3);
