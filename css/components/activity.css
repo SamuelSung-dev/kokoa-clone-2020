@@ -1,0 +1,31 @@
+.activity {
+  margin-top: 5.375rem;
+}
+.activity__list {
+  padding: 2rem;
+  border-bottom: var(--border-main);
+}
+.activity__li__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.activity__li__subtitle {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+.activity__li__title__text {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+.activity__li__icon {
+  width: 2rem;
+  height: 2rem;
+}
+.activity__li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+}
