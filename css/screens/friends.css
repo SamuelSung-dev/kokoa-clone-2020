@@ -7,7 +7,7 @@
   text-align: center;
   align-items: center;
 }
-.friend-display-link__info {
+.friend-display-link__icon {
   margin: 0 0.2rem;
   width: 1rem;
   height: 1rem;
@@ -17,15 +17,10 @@
   padding: 0 var(--horizontal-space);
 }
 .friends-sreen__friendlist {
-  padding: 0.5rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .friends-sreen__friendlist-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.friends-sreen__friendlist-header span {
-  font-size: 0.8rem;
-  color: rgba(0, 0, 0, 0.3);
 }

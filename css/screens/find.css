@@ -2,3 +2,100 @@
   margin-top: 6.75rem;
   padding: 0 var(--horizontal-space);
 }
+
+.find-method {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+.find-method__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.find-method__icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+.find-method__text {
+  text-align: center;
+}
+.find-recommand,
+.find-openchat {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.find-recommand__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-recommand__blank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.2rem;
+  min-height: 12rem;
+}
+
+.find-openchat__main {
+}
+.find-openchat__li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.find-openchat__textfield {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.find-openchat__title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.find-openchat__text {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0.5rem 0;
+}
+.find-openchat__text--nm {
+  margin: 0;
+}
+.find-openchat__active {
+  color: deeppink;
+}
+.find-openchat__status {
+  display: flex;
+  align-items: center;
+}
+.find-openchat__memberimg {
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40%;
+  margin-right: 0.2rem;
+}
+.find-openchat__image {
+  position: relative;
+}
+.find-openchat__img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.find-openchat__like {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}

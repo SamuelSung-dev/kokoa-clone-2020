@@ -1,5 +1,5 @@
 .nav {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #fafafa;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem 2rem;
   position: fixed;
@@ -21,15 +21,6 @@
   position: relative;
 }
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  border-radius: 50%;
-  width: 1.5rem;
-  height: 1.5rem;
-  color: white;
-  font-weight: 600;
   position: absolute;
   left: 1.5rem;
   top: -1.7rem;
