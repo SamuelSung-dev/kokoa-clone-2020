@@ -1,0 +1,29 @@
+.icons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+.icons-row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.icons-row__icon--div {
+  position: relative;
+}
+.icons-row__icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+.icons-row__text {
+  text-align: center;
+}
+
+.icons-row__newfeat {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

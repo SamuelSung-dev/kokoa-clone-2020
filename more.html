@@ -25,36 +25,94 @@
     <header class="screen-header">
       <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
-        <img class="screen-header__icon" src="icon/search.svg" />
-        <img class="screen-header__icon" src="icon/music-note.svg" />
-        <img class="screen-header__icon" src="icon/cog.svg" />
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/search.svg" />
+        </div>
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/music-note.svg" />
+        </div>
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/cog.svg" />
+          <span class="badge__newfeat"></span>
+        </div>
       </div>
     </header>
 
-    <main class="more-screen"></main>
+    <main class="more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="image/cat.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h1 class="user-component__title">Cute Cat</h1>
+            <div class="user-component__phone">
+              <h2 class="user-component__subtitle">+82 10-0000-0000</h2>
+              <img
+                class="user-component__exclamation"
+                src="icon/exclamation-circle.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <img class="user-component__annotation" src="icon/annotation.svg" />
+        </div>
+      </div>
+      <div class="icons-row">
+        <div class="icons-row__column">
+          <img class="icons-row__icon" src="icon/calendar.svg" />
+          <span class="icons-row__text"> Calendar </span>
+        </div>
+        <div class="icons-row__column">
+          <div class="icons-row__icon--div">
+            <img class="icons-row__icon" src="icon/archive.svg" />
+            <span class="icons-row__newfeat badge__newfeat"></span>
+          </div>
+          <span class="icons-row__text"> Talk Drive </span>
+        </div>
+        <div class="icons-row__column">
+          <img class="icons-row__icon" src="icon/emoji-happy.svg" />
+          <span class="icons-row__text"> Emoticons </span>
+        </div>
+        <div class="icons-row__column">
+          <img class="icons-row__icon" src="icon/color-swatch.svg" />
+          <span class="icons-row__text"> Themes </span>
+        </div>
+      </div>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><img class="nav__icon" src="icon/friends.svg"
-          /></a>
+          <a href="friends.html">
+            <div class="nav__link">
+              <img class="nav__icon" src="icon/friends.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <img class="nav__icon" src="icon/chats.svg"
-          /></a>
+          <a href="chats.html">
+            <div class="nav__link">
+              <span class="nav__notification badge">1</span>
+              <img class="nav__icon" src="icon/chats.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><img class="nav__icon" src="icon/search.svg"
-          /></a>
+          <a href="find.html">
+            <div class="nav__link">
+              <img class="nav__icon" src="icon/search.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__newfeat"></span>
-            <img class="nav__icon" src="icon/dots-horizontal.svg" />
+          <a href="more.html">
+            <div class="nav__link">
+              <span class="badge__newfeat"></span>
+              <img class="nav__icon" src="icon/dots-horizontal.svg" />
+            </div>
           </a>
         </li>
       </ul>

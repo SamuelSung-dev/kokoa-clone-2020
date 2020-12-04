@@ -3,29 +3,9 @@
   padding: 0 var(--horizontal-space);
 }
 
-.find-method {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 1rem 0;
-}
-.find-method__column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 25%;
-}
-.find-method__icon {
-  width: 3rem;
-  height: 3rem;
-  margin-bottom: 1rem;
-}
-.find-method__text {
-  text-align: center;
-}
 .find-recommand,
 .find-openchat {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--border-main);
 }
 .find-recommand__main {
   display: flex;
@@ -41,13 +21,11 @@
   min-height: 12rem;
 }
 
-.find-openchat__main {
-}
 .find-openchat__li {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: var(--border-main);
   align-items: center;
 }
 
@@ -74,6 +52,12 @@
   display: flex;
   align-items: center;
 }
+.find-openchat__status .divider {
+  width: 1px;
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 0.5rem;
+}
 .find-openchat__memberimg {
   width: 1.1rem;
   height: 1.1rem;
@@ -83,6 +67,7 @@
 }
 .find-openchat__image {
   position: relative;
+  z-index: -1;
 }
 .find-openchat__img {
   width: 8rem;

@@ -1,4 +1,5 @@
 :root {
   --main: #fae100;
   --horizontal-space: 1rem;
+  --border-main: 1px solid rgba(0, 0, 0, 0.1);
 }

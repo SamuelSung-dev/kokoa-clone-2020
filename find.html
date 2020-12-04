@@ -25,48 +25,45 @@
     <header class="screen-header">
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
-        <img class="screen-header__icon" src="icon/search.svg" />
-        <img class="screen-header__icon" src="icon/cog.svg" />
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/search.svg" />
+        </div>
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/cog.svg" />
+          <span class="badge__newfeat"></span>
+        </div>
       </div>
     </header>
 
     <main class="find-screen">
-      <div class="find-method">
-        <div class="find-method__column">
-          <img class="find-method__icon" src="icon/qrcode.svg" /><span
-            class="find-method__text"
-            >QR Code</span
-          >
+      <div class="icons-row">
+        <div class="icons-row__column">
+          <img class="icons-row__icon" src="icon/qrcode.svg" />
+          <span class="icons-row__text"> QR Code </span>
         </div>
-        <div class="find-method__column">
-          <img class="find-method__icon" src="icon/user-group.svg" /><span
-            class="find-method__text"
-            >Add by Contacts</span
-          >
+        <div class="icons-row__column">
+          <img class="icons-row__icon" src="icon/user-group.svg" />
+          <span class="icons-row__text"> Add by Contacts </span>
         </div>
-        <div class="find-method__column">
-          <img class="find-method__icon" src="icon/identification.svg" /><span
-            class="find-method__text"
-            >Add by ID</span
-          >
+        <div class="icons-row__column">
+          <img class="icons-row__icon" src="icon/identification.svg" />
+          <span class="icons-row__text"> Add by ID </span>
         </div>
-        <div class="find-method__column">
-          <img class="find-method__icon" src="icon/mail.svg" /><span
-            class="find-method__text"
-            >Invite</span
-          >
+        <div class="icons-row__column">
+          <img class="icons-row__icon" src="icon/mail.svg" />
+          <span class="icons-row__text"> Invite </span>
         </div>
       </div>
       <div class="find-recommand">
         <div class="subtitle">
-          <span class="subtitle__name subtitle__name--xl"
-            >Recommended Friends</span
-          >
+          <span class="subtitle__name subtitle__name--xl">
+            Recommended Friends
+          </span>
         </div>
         <div class="find-recommand__main">
-          <span class="find-recommand__blank"
-            >You have no recommended friends</span
-          >
+          <span class="find-recommand__blank">
+            You have no recommended friends.
+          </span>
         </div>
       </div>
       <div class="find-openchat">
@@ -82,15 +79,16 @@
         <li class="find-openchat__li">
           <div class="find-openchat__textfield">
             <span class="find-openchat__title">#CATS</span>
-            <span class="find-openchat__text">#CATS#BOXES#고양이</span>
+            <span class="find-openchat__text">#cat#boxes#고양이</span>
             <div class="find-openchat__status">
               <img
                 class="find-openchat__memberimg"
                 src="image/norwegian-forest.jpg"
               />
-              <span class="find-openchat__text find-openchat__text--nm"
-                >802 members |
+              <span class="find-openchat__text find-openchat__text--nm">
+                802 members
               </span>
+              <div class="divider"></div>
               <span class="find-openchat__active">Active</span>
             </div>
           </div>
@@ -102,15 +100,16 @@
         <li class="find-openchat__li">
           <div class="find-openchat__textfield">
             <span class="find-openchat__title">#DOGS</span>
-            <span class="find-openchat__text">#DOG#개#세나개</span>
+            <span class="find-openchat__text">#dog#개#세나개</span>
             <div class="find-openchat__status">
               <img
                 class="find-openchat__memberimg"
                 src="image/golden-retriver.jpg"
               />
-              <span class="find-openchat__text find-openchat__text--nm"
-                >980 members |
+              <span class="find-openchat__text find-openchat__text--nm">
+                980 members
               </span>
+              <div class="divider"></div>
               <span class="find-openchat__active">Active</span>
             </div>
           </div>
@@ -122,12 +121,13 @@
         <li class="find-openchat__li">
           <div class="find-openchat__textfield">
             <span class="find-openchat__title">#BIRDS</span>
-            <span class="find-openchat__text">#BIRD#새</span>
+            <span class="find-openchat__text">#bird#새</span>
             <div class="find-openchat__status">
               <img class="find-openchat__memberimg" src="image/chick.jpg" />
               <span class="find-openchat__text find-openchat__text--nm"
-                >275 members |
+                >275 members
               </span>
+              <div class="divider"></div>
               <span class="find-openchat__active">Active</span>
             </div>
           </div>
@@ -138,29 +138,36 @@
         </li>
       </ul>
     </main>
-
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><img class="nav__icon" src="icon/friends.svg"
-          /></a>
+          <a href="friends.html">
+            <div class="nav__link">
+              <img class="nav__icon" src="icon/friends.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <img class="nav__icon" src="icon/chats.svg"
-          /></a>
+          <a href="chats.html">
+            <div class="nav__link">
+              <span class="nav__notification badge">1</span>
+              <img class="nav__icon" src="icon/chats.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><img class="nav__icon" src="icon/search.svg"
-          /></a>
+          <a href="find.html">
+            <div class="nav__link">
+              <img class="nav__icon" src="icon/search.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__newfeat"></span>
-            <img class="nav__icon" src="icon/dots-horizontal.svg" />
+          <a href="more.html">
+            <div class="nav__link">
+              <span class="nav__newfeat badge__newfeat"></span>
+              <img class="nav__icon" src="icon/dots-horizontal.svg" />
+            </div>
           </a>
         </li>
       </ul>

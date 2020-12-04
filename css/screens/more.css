@@ -2,3 +2,19 @@
   margin-top: 6.75rem;
   padding: 0 var(--horizontal-space);
 }
+.more {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 1rem 0;
+}
+.more_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+.more__icon {
+  width: 3rem;
+  height: 3rem;
+}

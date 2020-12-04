@@ -17,7 +17,7 @@
   padding: 0 var(--horizontal-space);
 }
 .friends-sreen__friendlist {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--border-main);
 }
 .friends-sreen__friendlist-header {
   display: flex;

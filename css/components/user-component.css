@@ -56,3 +56,17 @@
   width: 1rem;
   height: 1rem;
 }
+.user-component__phone {
+  display: flex;
+  flex-direction: row;
+}
+.user-component__exclamation {
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+  width: 1rem;
+  height: 1rem;
+}
+.user-component__annotation {
+  width: 3.5rem;
+  height: 3.5rem;
+}

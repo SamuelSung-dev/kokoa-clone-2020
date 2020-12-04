@@ -25,10 +25,18 @@
     <header class="screen-header">
       <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
-        <img class="screen-header__icon" src="icon/search.svg" />
-        <img class="screen-header__icon" src="icon/plus.svg" />
-        <img class="screen-header__icon" src="icon/music-note.svg" />
-        <img class="screen-header__icon" src="icon/cog.svg" />
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/search.svg" />
+        </div>
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/plus.svg" />
+        </div>
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/music-note.svg" />
+        </div>
+        <div class="screen-header__icon--wrapper">
+          <img class="screen-header__icon" src="icon/cog.svg" />
+        </div>
       </div>
     </header>
 
@@ -69,25 +77,33 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><img class="nav__icon" src="icon/friends.svg"
-          /></a>
+          <a href="friends.html">
+            <div class="nav__link">
+              <img class="nav__icon" src="icon/friends.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <img class="nav__icon" src="icon/chats_on.svg"
-          /></a>
+          <a href="chats.html">
+            <div class="nav__link">
+              <span class="nav__notification badge">1</span>
+              <img class="nav__icon" src="icon/chats_on.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><img class="nav__icon" src="icon/search.svg"
-          /></a>
+          <a href="find.html">
+            <div class="nav__link">
+              <img class="nav__icon" src="icon/search.svg" />
+            </div>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__newfeat"></span>
-            <img class="nav__icon" src="icon/dots-horizontal.svg" />
+          <a href="more.html">
+            <div class="nav__link">
+              <span class="nav__newfeat badge__newfeat"></span>
+              <img class="nav__icon" src="icon/dots-horizontal.svg" />
+            </div>
           </a>
         </li>
       </ul>

@@ -13,9 +13,21 @@
   font-size: 2.5rem;
   font-weight: 600;
 }
-
+.screen-header__icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.screen-header__icon--wrapper {
+  position: relative;
+}
 .screen-header__icon {
   margin-left: 1.5rem;
   height: 2rem;
   width: 2rem;
+}
+.screen-header__cog__new {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
