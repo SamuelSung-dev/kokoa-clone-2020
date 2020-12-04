@@ -3,18 +3,30 @@
   position: fixed;
   top: 2.25rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   box-sizing: border-box;
   width: 100%;
   padding: 0.5rem;
   background-color: white;
 }
 
+.activity-header__back {
+  width: 10%;
+}
+.activity-header__icons {
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+}
 .activity-header__icon {
   height: 2rem;
   width: 2rem;
+  margin-left: 0.5rem;
 }
 .activity-header__title {
+  display: flex;
   font-size: 2rem;
   font-weight: bold;
+  width: 80%;
+  justify-content: center;
 }
