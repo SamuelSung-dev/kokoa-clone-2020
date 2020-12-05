@@ -1,3 +1,21 @@
 .chat__background {
   background-color: #abc1d1;
 }
+
+.chat-screen {
+  margin-top: 5.375rem;
+}
+
+.chat__date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.chat__date__text {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
