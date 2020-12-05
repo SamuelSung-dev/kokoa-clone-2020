@@ -20,7 +20,6 @@
   border-radius: 2rem;
   padding: 0.2rem;
   width: 100%;
-  transition: all 0.5s ease-in-out;
 }
 .keyboard__icon {
   width: 3rem;
@@ -42,6 +41,11 @@
   border: none;
   font-size: 1.5rem;
   width: 100%;
+}
+
+.keyboard__keys {
+  display: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .keyboard__keys-row {
@@ -86,14 +90,6 @@
   margin-right: 1rem;
 }
 
-.keyboard__input:focus-within .keyboard__icon:first-child {
-  display: none;
-}
-.keyboard__input:focus-within .keyboard__icon,
-.keyboard__input:focus-within .keyboard__icon-circle-main {
-  opacity: 0;
-}
-.keyboard__input:focus-within .keyboard__form {
-  transform: translateX(-1px);
-  width: 99%;
+.keyboard:focus-within .keyboard__keys {
+  display: block;
 }
