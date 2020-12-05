@@ -11,6 +11,7 @@
 @import "components/icons-row.css";
 @import "components/activity-header.css";
 @import "components/activity.css";
+@import "components/keyboard.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";

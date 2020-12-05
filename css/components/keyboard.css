@@ -1,0 +1,36 @@
+.keyboard__input {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem 1rem;
+}
+.keyboard__form {
+  border: var(--border-main);
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 0.2rem;
+  margin-left: 1rem;
+  width: 100%;
+}
+.keyboard__icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.keyboard__icon--margin {
+  margin-right: 1rem;
+}
+.keyboard__icon-circle-main {
+  background-color: var(--main);
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.keyboard__text {
+  margin-left: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  width: 100%;
+}
