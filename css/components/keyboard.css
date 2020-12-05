@@ -19,8 +19,8 @@
   align-items: center;
   border-radius: 2rem;
   padding: 0.2rem;
-  margin-left: 1rem;
   width: 100%;
+  transition: all 0.5s ease-in-out;
 }
 .keyboard__icon {
   width: 3rem;
@@ -72,4 +72,28 @@
 .keyboard__button-grey {
   background-color: #989898;
   padding: 0.5rem;
+}
+
+.keyboard__button:focus,
+.keyboard__button:active {
+  outline: none;
+}
+
+.keyboard__button:hover {
+  cursor: pointer;
+}
+.keyboard__input .keyboard__icon:first-child {
+  margin-right: 1rem;
+}
+
+.keyboard__input:focus-within .keyboard__icon:first-child {
+  display: none;
+}
+.keyboard__input:focus-within .keyboard__icon,
+.keyboard__input:focus-within .keyboard__icon-circle-main {
+  opacity: 0;
+}
+.keyboard__input:focus-within .keyboard__form {
+  transform: translateX(-1px);
+  width: 99%;
 }

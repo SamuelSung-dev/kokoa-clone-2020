@@ -1,6 +1,7 @@
 .find-screen {
   margin-top: 6.75rem;
   padding: 0 var(--horizontal-space);
+  height: 1000vh;
 }
 
 .find-recommand,
@@ -78,6 +79,19 @@
   border-radius: 10%;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+  }
+  100% {
+    color: white;
+  }
+}
+
 .find-openchat__like {
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
@@ -86,4 +100,9 @@
   position: absolute;
   bottom: 0.5rem;
   right: 0.5rem;
+  display: flex;
+}
+
+.find-openchat__like:hover heart {
+  animation: heartBeat 2s linear infinite;
 }

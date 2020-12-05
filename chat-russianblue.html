@@ -45,7 +45,7 @@
         <div>
           <div class="chat__username chat__text--subcolor">Russian Blue</div>
           <div class="chat__content">
-            <div class="chat__text">Hi!</div>
+            <div class="chat__text chat__text__border--top_left_none">Hi!</div>
             <div class="chat__time chat__text--sm chat__text--subcolor">
               10:57
             </div>
@@ -57,7 +57,9 @@
         <div>
           <div class="chat__username chat__text--subcolor">Russian Blue</div>
           <div class="chat__content">
-            <div class="chat__text">I'm Russian Blue!</div>
+            <div class="chat__text chat__text__border--top_left_none">
+              I'm Russian Blue!
+            </div>
             <div class="chat__time chat__text--sm chat__text--subcolor">
               11:01
             </div>
@@ -67,9 +69,27 @@
       <div class="chat-component chat__me">
         <div>
           <div class="chat__content chat__me">
-            <div class="chat__text chat__me-background">Hello!</div>
+            <div
+              class="chat__text chat__text__border--top_right_none chat__me-background"
+            >
+              Hello!
+            </div>
             <div class="chat__time chat__text--sm chat__text--subcolor">
               11:04
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chat-component">
+        <div><img class="chat__avatar" src="image/cat-russian_blue.jpg" /></div>
+        <div>
+          <div class="chat__username chat__text--subcolor">Russian Blue</div>
+          <div class="chat__content">
+            <div class="chat__text chat__text__border--top_left_none">
+              I want to eat meat
+            </div>
+            <div class="chat__time chat__text--sm chat__text--subcolor">
+              13:01
             </div>
           </div>
         </div>
@@ -80,7 +100,11 @@
       <div class="keyboard__input">
         <img class="keyboard__icon" src="icon/plus-circle.svg" />
         <form class="keyboard__form">
-          <input class="keyboard__text" type="text" />
+          <input
+            class="keyboard__text"
+            type="text"
+            placeholder="Write a message..."
+          />
           <img
             class="keyboard__icon keyboard__icon--margin"
             src="icon/emoji-happy.svg"

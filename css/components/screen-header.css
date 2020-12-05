@@ -31,3 +31,16 @@
   top: 1rem;
   right: 1rem;
 }
+
+@keyframes rotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .screen-header__icon--wrapper:last-child img:hover {
+  animation: rotate 2s linear infinite;
+}
